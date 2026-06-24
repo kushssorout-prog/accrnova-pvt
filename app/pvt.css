@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --p-black:     #05060A;
+  --p-surface:   #0A0C14;
+  --p-card:      #0F1220;
+  --p-white:     #F0F4FF;
+  --p-muted:     #6B7A99;
+  --p-border:    rgba(255,255,255,0.07);
+  --p-blue:      #2563EB;
+  --p-blue-l:    #60A5FA;
+  --p-cyan:      #06B6D4;
+  --p-violet:    #7C3AED;
+  --p-teal:      #0D9488;
+  --p-gold:      #C9952A;
+  --p-gradient:  linear-gradient(135deg, #2563EB 0%, #06B6D4 100%);
+  --p-glow:      0 0 80px rgba(37,99,235,0.15);
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'Inter', sans-serif;
+}
+html, body { margin: 0; background: var(--p-black); color: var(--p-white); font-family: var(--font-body); }
+* { box-sizing: border-box; }
