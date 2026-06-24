@@ -9,13 +9,13 @@ import "./pvt.css";
 
 export function meta() {
   return [
-    { title: "ACCRNOVA Private Limited — AI Solutions & Software Development" },
+    { title: "ACCRNOVA Private Limited — AI Solutions, Software Development & ML Consultancy · ACCRNOVA Group" },
     {
       name: "description",
       content:
         "Full-service AI company: enterprise governance, ML engineering, software development, consumer AI safety. Part of ACCRNOVA Group. Bangalore.",
     },
-    { property: "og:title", content: "ACCRNOVA Private Limited — AI Solutions & Software Development" },
+    { property: "og:title", content: "ACCRNOVA Private Limited — AI Solutions, Software Development & ML Consultancy · ACCRNOVA Group" },
     {
       property: "og:description",
       content:

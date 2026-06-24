@@ -302,6 +302,7 @@ function NavBar() {
           <span style={S.navSub}>Private Limited</span>
         </div>
       </a>
+      <a href="https://accrnova.uk" style={{fontSize:"10px",color:"#C9952A",border:"1px solid rgba(201,149,42,0.3)",padding:"2px 8px",borderRadius:"100px",textDecoration:"none",marginLeft:"8px"}}>ACCRNOVA Group</a>
       <div style={S.navLinks}>
         {links.map((l) => (
           <a
@@ -1404,6 +1405,17 @@ function Footer() {
             Powered by Axiom AI Governance
           </span>
         </div>
+      </div>
+      <div style={{borderTop:"1px solid rgba(255,255,255,0.06)",marginTop:"24px",paddingTop:"20px",textAlign:"center"}}>
+        <a href="https://accrnova.uk" style={{color:"#C9952A",fontSize:"13px",fontWeight:600,textDecoration:"none"}}>⬡ ACCRNOVA Group</a>
+        <span style={{color:"#4a5568",fontSize:"12px",margin:"0 12px"}}>·</span>
+        <a href="https://zenithustra.accrnova.uk" style={{color:"#6B7280",fontSize:"12px",textDecoration:"none"}}>Zenithustra</a>
+        <span style={{color:"#4a5568",fontSize:"12px",margin:"0 8px"}}>·</span>
+        <a href="https://aryasolon.accrnova.uk" style={{color:"#6B7280",fontSize:"12px",textDecoration:"none"}}>AryaSolon</a>
+        <span style={{color:"#4a5568",fontSize:"12px",margin:"0 8px"}}>·</span>
+        <a href="https://safe.accrnova.uk" style={{color:"#6B7280",fontSize:"12px",textDecoration:"none"}}>ACCRNOVA Safe Plus</a>
+        <span style={{color:"#4a5568",fontSize:"12px",margin:"0 8px"}}>·</span>
+        <a href="https://lamp.accrnova.uk" style={{color:"#6B7280",fontSize:"12px",textDecoration:"none"}}>Lamp of Life</a>
       </div>
     </footer>
   );
